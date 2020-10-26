@@ -28,7 +28,7 @@ const DogAdd = (props) =>{
     }
    
     return(
-        <>
+        <article>
         <h2>Add Breed</h2>
         <form onSubmit={addDog}>
             <label>Breed
@@ -41,7 +41,7 @@ const DogAdd = (props) =>{
             </label>
             <button>Submit</button>
         </form>
-        </>
+        </article>
     )
 
 }

@@ -2,6 +2,7 @@ import axios from 'axios';
 import React, { useState, useEffect } from 'react';
 import DogCard from './component/DogCard';
 import DogAdd from './component/DogAdd';
+import './App.scss'
 
 function App() {
   const [baseUrl] = useState("https://dogs-api-web-35.herokuapp.com")

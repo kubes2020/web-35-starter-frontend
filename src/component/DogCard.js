@@ -19,7 +19,7 @@ const DogCard = (props) => {
 
     return(
         <>
-        <article>
+        <article className="dogcard">
             <h3>{props.dog.breed}</h3>
             {
             props.dog.imageUrl != "" ? <img src={props.dog.imageUrl} alt={props.dog.breed} /> : <p>No image available</p>

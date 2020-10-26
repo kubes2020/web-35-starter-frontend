@@ -1,0 +1,39 @@
+form {
+  display: flex;
+  flex-direction: column;
+  label {
+    display: inherit;
+    flex-direction: inherit;
+    input {
+      height: 2rem;
+    }
+  }
+}
+
+button {
+  background: none;
+  border: 1px solid green;
+  margin-top: 1rem;
+  height: 2rem;
+}
+
+img {
+  width: 100%;
+}
+
+.dogcard {
+  border: 1px solid black;
+  border-radius: 1.5rem;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+article {
+  max-width: 400px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
